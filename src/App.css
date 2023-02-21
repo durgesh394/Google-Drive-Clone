@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid silver;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5px;
+}
+.logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.drivelogo {
+  width: 30px;
+  margin-left: 10px;
+}
+.logo span {
+  font-size: 17px;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: whitesmoke;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+.search input {
+  width: 400px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 17px;
+}
+
+.menubar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-right: 10px;
+}
+
+/* header style end */
+
+/* sidebar style start */
+.sidebarContainer {
+  width: 300px;
+}
+.newBtn {
+  margin: 10px 40px;
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.newBtn button {
+  font-size: 17px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.sidebarList {
+  margin: 20px;
+  border-bottom: 2px solid silver;
+}
+.sidelistItem {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.storagesidebar {
+  margin-left: 20px;
+}
+#sidestorage {
+  font-size: 12px;
+}
+
+/* main content */
+
+.main {
+  display: flex;
+}
+.datacontainer {
+  margin-top: 20px;
+  width: 100%;
+}
+.topmenu {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid silver;
+  padding: 5px 13px;
+
+  justify-content: space-between;
+}
+
+/* main container middle design */
+
+.middleSuggested {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.middleWrapper {
+  width: 150px;
+  height: 150px;
+  border: 1px solid silver;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.middlefileName {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  border-top: 1px solid silver;
+}
+
+.suggedstedmiddle {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: gray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* main bottom style start */
+
+.bottomHeading {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.mainBottomWrapper {
+  width: 100%;
+}
+.mainBottomWrapper table {
+  width: 90%;
+  text-align: start;
+  border: none;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.mainBottomWrapper table thead tr th {
+  text-align: start;
+  padding: 10px 0px;
+  border-bottom: 1px solid silver;
+}
+.mainBottomWrapper table tbody tr td {
+  border-bottom: 1px solid silver;
+  padding: 10px 0px;
+  text-align: start;
+  color: grey;
+}
+
+/* modal style start */
+
+.modalcontainer{
+  width: 100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.modalWrapper{
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.modalTop{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid silver;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modalfile{
+  padding: 12px;
+  background-color: lightgray;
+  width: 50%;
+  margin: 12px;
+  border-radius: 5px;
+}
+.submitBtn{
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submitBtn button{
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 12px;
+  background-color: #3498DB;
+  color: #fff;
+}
+
+.uploading{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  margin-top: -20px;
+  font-size: 20px;
+}
